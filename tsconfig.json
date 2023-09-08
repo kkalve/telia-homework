@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "removeComments": true,
+    "preserveConstEnums": true,
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

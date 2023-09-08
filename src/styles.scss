@@ -1,0 +1,100 @@
+$backgroundColor: #1F1F1F;
+$borderRadius: 5px;
+$mainTextColor: rgba(255, 255, 255, 0.5);
+
+// https://css-tricks.com/snippets/css/clear-fix/
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+// https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial
+}
+
+html {
+    background: $backgroundColor;
+}
+
+#error {
+    background: #F8D7DA;
+    color: #721C24;
+
+    & > div {
+        padding: 10px;
+    }
+}
+
+.search {
+    background: #000000;
+    padding: 10px;
+    font-size: 0.875rem;
+
+    input[type=text] {
+        background: $backgroundColor;
+        border: none;
+        outline: none;
+        border-radius: $borderRadius;
+        padding: 10px 15px;
+        color: $mainTextColor;
+    }
+
+    button {
+        background-color: #FFFFFF;
+        border-radius: $borderRadius;
+        border: none;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 10px 15px;
+        margin-left: 10px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+#search-results {
+    padding: 10px 0;
+    width: 50%;
+    float: left;
+
+    & > div {
+        background: #FFFFFF;
+        margin: 5px 10px;
+        padding: 10px;
+        border-radius: $borderRadius;
+        font-size: 0.875rem;
+        font-weight: 700;
+
+        &:hover {
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.7);
+        }
+    }
+}
+
+#movie-details {
+    padding: 15px 10px 0 0;
+    width: 50%;
+    float: left;
+
+    & > div {
+        background: #FFFFFF;
+        border-radius: $borderRadius;
+        padding: 10px;
+    }
+}
