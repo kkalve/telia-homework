@@ -37,13 +37,4 @@ module.exports = {
             template: 'src/index.html',
         })
     ],
-
-    devServer: {
-        stats: {
-            colors: true,
-            assets: false,
-            chunks: false,
-            modules: false
-        }
-    }
 };
