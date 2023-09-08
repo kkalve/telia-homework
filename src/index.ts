@@ -42,7 +42,7 @@ const updateSearchResults = async (keyword: string) => {
     });
 };
 
-// Load detailed information about a movie by its IMDB ID
+// Load detailed information about a movie
 const updateDetails = async (movie) => {
     const imageSrc = `${api.imageBaseUrl}${movie.images['webPosterLarge']}`;
     detailsContainer.innerHTML = `<div>${movie.description}</div><div><img src="${imageSrc}" /></div>`;

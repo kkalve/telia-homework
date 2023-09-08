@@ -16,7 +16,14 @@ TeliaTV live public API is used for the application, imageBaseUrl is used for di
 
 ## Version control
 Download this project to your computer by using the green "Code" button and selecting "Download Zip".
-Unzip it and add it to your own github account project:
+Unzip it and add it to your own github account project.
+In github.com create new PRIVATE repository "<your-username>/telia-homework", do not add README or gitignore.
 
+On your computer run:
+- git init
+- git remote add origin https://github.com/<your-username>/telia-homework.git
+- git branch -M master
+- Add all files and commit with message 'Initial commit'
+- git push -u origin master
 
 Feel free to refactor existing code as you see fit. Good luck!

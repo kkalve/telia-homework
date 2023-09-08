@@ -1,12 +1,12 @@
 {
   "name": "movie-search",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Movie Search",
   "private": true,
   "scripts": {
     "start": "webpack server --config webpack.config.js"
   },
-  "author": "Peeter Kask",
+  "author": "Telia",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^5.2.5",
