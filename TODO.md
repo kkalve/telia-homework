@@ -8,7 +8,7 @@ TODO:
 - Display IMDB rating out of 10
 
 ## Task 2 (bug)
-When search button is double clicked, then duplicate results are displayed.
+When search button is double-clicked, then duplicate results are displayed.
 Expected behaviour is to show only 10 results.
 
 ## Task 3 (story)
@@ -28,7 +28,7 @@ TODO:
 
 ## Task 5 (story)
 Search results are updated without clicking "SEARCH" button. Results should be updated automatically after user
-stops typing. There should be about 300ms delay before search results are updated. E.g when single character is entered then
+stops typing. There should be about 300ms delay before search results are updated. E.g. when single character is entered then
 there is 300ms delay. When next character is entered during this period then this delay will be reset. This avoids
 unnecessary updates while user is typing. Automatic searching should be done when at least 3 characters have been typed.
 
@@ -41,5 +41,5 @@ TODO:
 * Searching for 1 character string returns an error 400, display the message to the user
 
 ## Bonus task
-Display number of unique words (case insensitive) in the plot text of the movie.
+Display number of unique words (case-insensitive) in the plot text of the movie.
 Display this number after the plot in the detailed information container completed in task 1.
