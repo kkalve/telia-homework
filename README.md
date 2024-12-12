@@ -30,7 +30,7 @@ Once you have successfully completed your project, you must open project setting
 - Application can be opened from http://localhost:8080
 
 ## Configuration
-Configuration is in src/Config.ts file and should not be changed.
+Configuration is in src/Config.ts file.
 TeliaTV live public API is used for the application, imageBaseUrl is used for displaying images.
 
 ## Complete tasks
