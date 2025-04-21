@@ -21,8 +21,8 @@ On your computer run inside telia-homework folder:
 
 Once you have successfully completed your project, you must open project settings in GitHub.com and add collaborators for code review:
 - Kaspar Kalve (@kkalve)
-- Jaagop Janson (@JJaks)
 - Roman Petrov (@petrov-roman)
+- Kenert Karu (@karukenert)
 
 ## Setup
 - Install Node packages with the following command in project root: `npm install`.
