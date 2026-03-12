@@ -25,7 +25,7 @@ Do not fork this repository, as it would be visible to other candidates.
 Once you have successfully completed your project, you must open project settings in GitHub.com and add collaborators for code review:
 
 - Kaspar Kalve (@kkalve)
-- Roman Petrov (@petrov-roman)
+- Jaagop Janson (@jjaks)
 - Kenert Karu (@karukenert)
 
 ## Setup
